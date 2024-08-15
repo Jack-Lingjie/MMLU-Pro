@@ -31,9 +31,10 @@ def load_model():
                 tensor_parallel_size=torch.cuda.device_count(),
                 max_model_len=max_model_length,
                 trust_remote_code=True)
-    sampling_params = SamplingParams(temperature=0, max_tokens=max_new_tokens,
-                                        stop=["Question:"])
+
     tokenizer = transformers.AutoTokenizer.from_pretrained(args.model, trust_remote_code=True)
+    sampling_params = SamplingParams(temperature=0, max_tokens=max_new_tokens,
+                                        stop=["Question:"], stop_token_ids=[tokenizer.eos_token_id, tokenizer.convert_tokens_to_ids("<|end_of_text|>")])
     return (llm, sampling_params), tokenizer
 
 
@@ -175,16 +176,17 @@ def eval_cot(subject, model, tokenizer, val_df, test_df, output_path):
         prompt = None
         while not prompt_length_ok:
             prompt = generate_cot_prompt(val_df, curr, k)
-            logging.info(f"prompt: \n\n{prompt}")
+            # logging.info(f"prompt: \n\n{prompt}")
             inputs = tokenizer(prompt, return_tensors="pt")
             inputs = {key: value.cuda() for key, value in inputs.items()}
             length = len(inputs["input_ids"][0])
             if length < max_model_length - max_new_tokens:
                 prompt_length_ok = True
             k -= 1
-            
+        prompt = [{"role": "user", "content": prompt}] 
+        prompt = tokenizer.apply_chat_template(prompt, tokenize=False, add_generation_prompt=True)
         inference_batches.append(prompt)
-    logging.info(f"inference_batches: \n\n{inference_batches}")
+    # logging.info(f"inference_batches: \n\n{inference_batches}")
     pred_batch, response_batch = batch_inference(llm, sampling_params, inference_batches)
     res = []
     for j, curr in enumerate(test_df):
