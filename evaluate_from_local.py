@@ -175,14 +175,16 @@ def eval_cot(subject, model, tokenizer, val_df, test_df, output_path):
         prompt = None
         while not prompt_length_ok:
             prompt = generate_cot_prompt(val_df, curr, k)
+            logging.info(f"prompt: \n\n{prompt}")
             inputs = tokenizer(prompt, return_tensors="pt")
             inputs = {key: value.cuda() for key, value in inputs.items()}
             length = len(inputs["input_ids"][0])
             if length < max_model_length - max_new_tokens:
                 prompt_length_ok = True
             k -= 1
+            
         inference_batches.append(prompt)
-
+    logging.info(f"inference_batches: \n\n{inference_batches}")
     pred_batch, response_batch = batch_inference(llm, sampling_params, inference_batches)
     res = []
     for j, curr in enumerate(test_df):
@@ -275,6 +277,8 @@ if __name__ == "__main__":
     os.makedirs(save_result_dir, exist_ok=True)
     save_log_dir = os.path.join(args.save_dir, "log")
     os.makedirs(save_log_dir, exist_ok=True)
+    logpath = os.path.join(save_log_dir,file_name.replace("_summary.txt","_logfile.log"))
+    print(f"logpath: {logpath}")
     logging.basicConfig(level=logging.DEBUG, format='%(asctime)s %(levelname)s %(message)s',
                         handlers=[logging.FileHandler(os.path.join(save_log_dir,
                                                                    file_name.replace("_summary.txt",
