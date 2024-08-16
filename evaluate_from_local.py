@@ -34,7 +34,9 @@ def load_model():
 
     tokenizer = transformers.AutoTokenizer.from_pretrained(args.model, trust_remote_code=True)
     sampling_params = SamplingParams(temperature=0, max_tokens=max_new_tokens,
-                                        stop=["Question:"], stop_token_ids=[tokenizer.eos_token_id, tokenizer.convert_tokens_to_ids("<|end_of_text|>")])
+                                         stop_token_ids=[tokenizer.eos_token_id, tokenizer.convert_tokens_to_ids("<|end_of_text|>")])
+    print(f"sampling_params :{sampling_params}")
+    logging.info(f"sampling_params :{sampling_params}")
     return (llm, sampling_params), tokenizer
 
 

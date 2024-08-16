@@ -1,0 +1,5 @@
+tulu_lora_sft_base_template_8b,CoT,all,08-15_17-22,0.3471575797583812
+tulu_v2_8b_base_template_dpo,CoT,all,08-15_18-03,0.38455784571271956
+tulu_v2_8b_bsz64_default_template_dpo,CoT,all,08-15_18-47,0.40350731379625104
+tulu_lora_sft_default_template_8b,CoT,all,08-15_19-26,0.370013297841588
+Meta-Llama-3.1-8B-Instruct,CoT,all,08-15_20-07,0.45644946804717007

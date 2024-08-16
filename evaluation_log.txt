@@ -1,0 +1,15 @@
+Starting evaluation for model tulu_lora_sft_base_template_8b at 2024-08-15 17:21:57
+Completed evaluation for model tulu_lora_sft_base_template_8b at 2024-08-15 18:01:58
+Duration for model tulu_lora_sft_base_template_8b: 2401 seconds
+Starting evaluation for model tulu_v2_8b_base_template_dpo at 2024-08-15 18:02:58
+Completed evaluation for model tulu_v2_8b_base_template_dpo at 2024-08-15 18:46:47
+Duration for model tulu_v2_8b_base_template_dpo: 2629 seconds
+Starting evaluation for model tulu_v2_8b_bsz64_default_template_dpo at 2024-08-15 18:47:47
+Completed evaluation for model tulu_v2_8b_bsz64_default_template_dpo at 2024-08-15 19:25:06
+Duration for model tulu_v2_8b_bsz64_default_template_dpo: 2239 seconds
+Starting evaluation for model tulu_lora_sft_default_template_8b at 2024-08-15 19:26:06
+Completed evaluation for model tulu_lora_sft_default_template_8b at 2024-08-15 20:06:13
+Duration for model tulu_lora_sft_default_template_8b: 2407 seconds
+Starting evaluation for model Meta-Llama-3.1-8B-Instruct at 2024-08-15 20:07:13
+Completed evaluation for model Meta-Llama-3.1-8B-Instruct at 2024-08-15 21:22:03
+Duration for model Meta-Llama-3.1-8B-Instruct: 4490 seconds

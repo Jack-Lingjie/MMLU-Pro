@@ -2,7 +2,7 @@
 
 save_dir="eval_results/"
 global_record_file="eval_results/eval_record_collection.csv"
-model="/mnt/lingjiejiang/textual_aesthetics/model_checkpoint/sft_merge_checkpoints/tulu_lora_sft_default_template_8b"
+model="/mnt/lingjiejiang/textual_aesthetics/model_checkpoint/sft_merge_checkpoints/Meta-Llama-3.1-8B-Instruct"
 selected_subjects="all"
 gpu_util=0.8
 
