@@ -186,6 +186,10 @@ def eval_cot(subject, model, tokenizer, val_df, test_df, output_path):
                 prompt_length_ok = True
             k -= 1
         prompt = [{"role": "user", "content": prompt}] 
+        if tokenizer.chat_template is None:
+            logging.info("template is None")
+            template = "{% if messages[0]['role'] == 'system' %}{% set system_message = messages[0]['content'] %}{% endif %}{% if system_message is defined %}{{ system_message + '\n' }}{% endif %}{% for message in messages %}{% set content = message['content'] %}{% if message['role'] == 'user' %}{{ 'Human: ' + content + '\nAssistant:' }}{% elif message['role'] == 'assistant' %}{{ content + '<|end_of_text|>' + '\n' }}{% endif %}{% endfor %}"
+            tokenizer.chat_template = template
         prompt = tokenizer.apply_chat_template(prompt, tokenize=False, add_generation_prompt=True)
         inference_batches.append(prompt)
     # logging.info(f"inference_batches: \n\n{inference_batches}")

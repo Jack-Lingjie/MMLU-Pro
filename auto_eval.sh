@@ -1,12 +1,14 @@
 #!/bin/bash  
 set -x
+conda activate eval
 # 模型名称列表  
-models=(
-    "tulu_lora_sft_base_template_8b" 
-    "tulu_v2_8b_base_template_dpo" 
-    "tulu_v2_8b_bsz64_default_template_dpo" 
-    "tulu_lora_sft_default_template_8b" 
-    "Meta-Llama-3.1-8B-Instruct")  
+# models=(
+#     "tulu_lora_sft_base_template_8b" 
+#     "tulu_v2_8b_base_template_dpo" 
+#     "tulu_v2_8b_bsz64_default_template_dpo" 
+#     "tulu_lora_sft_default_template_8b" 
+#     "Meta-Llama-3.1-8B-Instruct")  
+models=("Meta-Llama-3.1-8B")  
 
 # 日志文件  
 log_file="evaluation_log.txt" 
