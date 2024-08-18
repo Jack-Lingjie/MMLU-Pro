@@ -1,6 +1,6 @@
 #!/bin/bash  
 set -x
-conda activate eval
+
 # 模型名称列表  
 models=(
     "tulu-2-7b"  

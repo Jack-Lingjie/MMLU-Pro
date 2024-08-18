@@ -1,3 +1,6 @@
-Starting evaluation for model tulu-2-7b at 2024-08-17 13:28:28
-Completed evaluation for model tulu-2-7b at 2024-08-17 13:28:28
-Duration for model tulu-2-7b: 0 seconds
+Starting evaluation for model tulu-2-7b at 2024-08-17 13:34:22
+Completed evaluation for model tulu-2-7b at 2024-08-17 14:56:40
+Duration for model tulu-2-7b: 4938 seconds
+Starting evaluation for model tulu-2-dpo-7b at 2024-08-17 14:57:40
+Completed evaluation for model tulu-2-dpo-7b at 2024-08-17 14:57:50
+Duration for model tulu-2-dpo-7b: 10 seconds
