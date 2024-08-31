@@ -1,0 +1,9 @@
+Starting evaluation for model ta_chosen_tuluv2_dpo_2048_default_template at 2024-08-29 02:58:36
+Completed evaluation for model ta_chosen_tuluv2_dpo_2048_default_template at 2024-08-29 06:29:30
+Duration for model ta_chosen_tuluv2_dpo_2048_default_template: 12654 seconds
+Starting evaluation for model ta_chosen_llama3.1_instruct_dpo_2048 at 2024-08-29 06:30:30
+Completed evaluation for model ta_chosen_llama3.1_instruct_dpo_2048 at 2024-08-29 08:32:22
+Duration for model ta_chosen_llama3.1_instruct_dpo_2048: 7312 seconds
+Starting evaluation for model ta_rejected_llama3.1_instruct_dpo_2048 at 2024-08-29 08:33:22
+Completed evaluation for model ta_rejected_llama3.1_instruct_dpo_2048 at 2024-08-29 10:26:07
+Duration for model ta_rejected_llama3.1_instruct_dpo_2048: 6765 seconds

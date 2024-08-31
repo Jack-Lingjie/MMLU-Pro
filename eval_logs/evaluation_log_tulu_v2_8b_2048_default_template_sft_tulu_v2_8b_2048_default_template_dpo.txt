@@ -1,0 +1,6 @@
+Starting evaluation for model tulu_v2_8b_2048_default_template_sft at 2024-08-18 11:53:24
+Completed evaluation for model tulu_v2_8b_2048_default_template_sft at 2024-08-18 12:35:10
+Duration for model tulu_v2_8b_2048_default_template_sft: 2506 seconds
+Starting evaluation for model tulu_v2_8b_2048_default_template_dpo at 2024-08-18 12:36:10
+Completed evaluation for model tulu_v2_8b_2048_default_template_dpo at 2024-08-18 13:13:58
+Duration for model tulu_v2_8b_2048_default_template_dpo: 2268 seconds

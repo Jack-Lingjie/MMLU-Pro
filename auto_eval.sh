@@ -8,10 +8,25 @@ conda activate eval
 #     "tulu_v2_8b_bsz64_default_template_dpo" 
 #     "tulu_lora_sft_default_template_8b" 
 #     "Meta-Llama-3.1-8B-Instruct")  
-models=("Meta-Llama-3.1-8B")  
+models=(
+    "uf_llama3.1_instruct_dpo_2048_job"
+    "ta_chosen_tuluv2_merge_dpo_2048_default_template"
+    # "ta_chosen_tuluv2_dpo_2048_default_template"
+    # "ta_chosen_llama3.1_instruct_dpo_2048"
+    # "ta_rejected_llama3.1_instruct_dpo_2048" 
+        )  
 
-# 日志文件  
-log_file="evaluation_log.txt" 
+# 原始日志文件名  
+log_file="evaluation_log"  
+  
+# 遍历模型列表，生成新的文件名  
+for model in "${models[@]}"; do  
+    # 拼接模型名到log_file后  
+    log_file="${log_file}_${model}"  
+done  
+  
+# 最终的文件名  
+log_file="./eval_logs/${log_file}.txt" 
 
 # 清空日志文件  
 > "$log_file" 

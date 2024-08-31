@@ -1,0 +1,12 @@
+Starting evaluation for model wildchat_v2_8b_2048_default_template_full_sft at 2024-08-28 04:37:17
+Completed evaluation for model wildchat_v2_8b_2048_default_template_full_sft at 2024-08-28 05:28:34
+Duration for model wildchat_v2_8b_2048_default_template_full_sft: 3077 seconds
+Starting evaluation for model wildchat_v2_8b_2048_default_template_fullft_e5_9485 at 2024-08-28 05:29:34
+Completed evaluation for model wildchat_v2_8b_2048_default_template_fullft_e5_9485 at 2024-08-28 06:39:33
+Duration for model wildchat_v2_8b_2048_default_template_fullft_e5_9485: 4199 seconds
+Starting evaluation for model wildchat_v2_8b_2048_default_template_fullft_lr5e6_3794 at 2024-08-28 06:40:33
+Completed evaluation for model wildchat_v2_8b_2048_default_template_fullft_lr5e6_3794 at 2024-08-28 07:29:49
+Duration for model wildchat_v2_8b_2048_default_template_fullft_lr5e6_3794: 2956 seconds
+Starting evaluation for model wildchat_v2_8b_2048_default_template_fullft_lr5e6_e5_9485 at 2024-08-28 07:30:49
+Completed evaluation for model wildchat_v2_8b_2048_default_template_fullft_lr5e6_e5_9485 at 2024-08-28 08:31:14
+Duration for model wildchat_v2_8b_2048_default_template_fullft_lr5e6_e5_9485: 3625 seconds

@@ -1,0 +1,6 @@
+Starting evaluation for model uf_llama3.1_instruct_dpo_2048_job at 2024-08-30 08:46:11
+Completed evaluation for model uf_llama3.1_instruct_dpo_2048_job at 2024-08-30 10:17:32
+Duration for model uf_llama3.1_instruct_dpo_2048_job: 5481 seconds
+Starting evaluation for model ta_chosen_tuluv2_merge_dpo_2048_default_template at 2024-08-30 10:18:32
+Completed evaluation for model ta_chosen_tuluv2_merge_dpo_2048_default_template at 2024-08-30 14:39:13
+Duration for model ta_chosen_tuluv2_merge_dpo_2048_default_template: 15641 seconds
