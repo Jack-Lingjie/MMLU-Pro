@@ -19,4 +19,3 @@ python evaluate_from_local.py \
                  --model $model \
                  --global_record_file $global_record_file \
                  --gpu_util $gpu_util
-

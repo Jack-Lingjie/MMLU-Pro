@@ -1,0 +1,19 @@
+
+------category level sta------
+Average accuracy 0.4198 - biology
+Average accuracy 0.1812 - business
+Average accuracy 0.1943 - chemistry
+Average accuracy 0.2512 - computer science
+Average accuracy 0.1765 - economics
+Average accuracy 0.2054 - engineering
+Average accuracy 0.2506 - health
+Average accuracy 0.2782 - history
+Average accuracy 0.1281 - law
+Average accuracy 0.2561 - math
+Average accuracy 0.3160 - other
+Average accuracy 0.3287 - philosophy
+Average accuracy 0.1078 - physics
+Average accuracy 0.1466 - psychology
+
+------average acc sta------
+Average accuracy: 0.2183

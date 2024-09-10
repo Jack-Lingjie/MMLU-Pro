@@ -1,0 +1,9 @@
+Starting evaluation for model ta_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8 at 2024-09-03 04:27:17
+Completed evaluation for model ta_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8 at 2024-09-03 06:33:45
+Duration for model ta_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8: 7588 seconds
+Starting evaluation for model ta_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v2 at 2024-09-03 06:34:45
+Completed evaluation for model ta_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v2 at 2024-09-03 07:40:00
+Duration for model ta_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v2: 3915 seconds
+Starting evaluation for model ta_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v3 at 2024-09-03 07:41:00
+Completed evaluation for model ta_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v3 at 2024-09-03 08:54:30
+Duration for model ta_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v3: 4410 seconds

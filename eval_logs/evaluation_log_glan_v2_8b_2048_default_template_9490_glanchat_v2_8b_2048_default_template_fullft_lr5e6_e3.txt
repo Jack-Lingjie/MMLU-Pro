@@ -1,0 +1,6 @@
+Starting evaluation for model glan_v2_8b_2048_default_template_9490 at 2024-09-04 10:54:41
+Completed evaluation for model glan_v2_8b_2048_default_template_9490 at 2024-09-04 11:34:00
+Duration for model glan_v2_8b_2048_default_template_9490: 2359 seconds
+Starting evaluation for model glanchat_v2_8b_2048_default_template_fullft_lr5e6_e3 at 2024-09-04 11:35:00
+Completed evaluation for model glanchat_v2_8b_2048_default_template_fullft_lr5e6_e3 at 2024-09-04 12:26:36
+Duration for model glanchat_v2_8b_2048_default_template_fullft_lr5e6_e3: 3096 seconds

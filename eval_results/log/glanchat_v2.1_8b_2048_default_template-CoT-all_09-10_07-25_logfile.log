@@ -1,0 +1,4 @@
+2024-09-10 07:25:57,095 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2024-09-10 07:25:59,535 DEBUG Starting new HTTPS connection (1): stats.vllm.ai:443
+2024-09-10 07:25:59,654 DEBUG https://stats.vllm.ai:443 "POST / HTTP/11" 200 None
+2024-09-10 07:25:59,695 DEBUG https://huggingface.co:443 "HEAD /glanchat_v2.1_8b_2048_default_template/resolve/main/tokenizer_config.json HTTP/11" 401 0
