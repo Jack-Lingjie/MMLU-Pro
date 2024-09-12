@@ -3,12 +3,13 @@
 set -x  
   
 # 激活 conda 环境  
-conda activate eval  
+# conda activate eval  
   
 # 参数列表，每个元素包含 model_name, hyperparameter, 和 checkpoint，用逗号分隔  
 PARAMS=(  
-  "glanchat_v2.1_8b_2048_default_template,fullft_lr5e6_e3,checkpoint-8500"  
-  "glan_v2_glanchat_v2_8b_2048_default_template,fullft_lr5e6_e3_fx,checkpoint-33000"   
+  "glanchat_v2.1_8b_2048_default_template,fullft_lr5e6_e3,checkpoint-9918"
+  # "glanchat_v2.1_8b_2048_default_template,fullft_lr5e6_e3,checkpoint-8500"  
+  # "glan_v2_glanchat_v2_8b_2048_default_template,fullft_lr5e6_e3_fx,checkpoint-33000"   
 )  
   
 # 原始日志文件名  

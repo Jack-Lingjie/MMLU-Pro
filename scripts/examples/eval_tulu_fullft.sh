@@ -19,7 +19,8 @@ global_record_file="eval_results/eval_record_collection.csv"
   
 # 模型路径更新为新的格式  
 model_path="/mnt/lingjiejiang/textual_aesthetics/exp/saves/$MODEL_NAME/$HYPERPARAMETER/sft/$CHECKPOINT"  
-model=$MODEL_NAME
+model="${MODEL_NAME}_${CHECKPOINT}"
+echo $model
 
 # 选择的主题和GPU利用率  
 selected_subjects="all"  

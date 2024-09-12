@@ -42,3 +42,4 @@ ta_v2_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v3,CoT,all,09-05_15-50
 ta_v2_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v4,CoT,all,09-05_16-56,0.3739195478412633
 glanchat_v2.1_8b_2048_default_template,CoT,all,09-10_07-50,0.4074135637959264
 glan_v2_glanchat_v2_8b_2048_default_template,CoT,all,09-10_08-44,0.4079953457107717
+glanchat_v2.1_8b_2048_default_template_checkpoint-9918,CoT,all,09-12_02-57,0.40458776592382084
