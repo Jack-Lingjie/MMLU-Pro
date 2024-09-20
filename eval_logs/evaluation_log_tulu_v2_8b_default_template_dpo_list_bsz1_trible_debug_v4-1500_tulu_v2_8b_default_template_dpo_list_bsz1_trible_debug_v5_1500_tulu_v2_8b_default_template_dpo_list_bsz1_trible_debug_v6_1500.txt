@@ -1,0 +1,30 @@
+Starting evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v4-1500 at 2024-09-17 04:14:06
+Completed evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v4-1500 at 2024-09-17 05:15:09
+Duration for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v4-1500: 3663 seconds
+Starting evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v5_1500 at 2024-09-17 05:16:09
+Completed evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v5_1500 at 2024-09-17 06:36:35
+Duration for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v5_1500: 4826 seconds
+Starting evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v6_1500 at 2024-09-17 06:37:35
+Completed evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v6_1500 at 2024-09-17 07:36:48
+Duration for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v6_1500: 3553 seconds
+Starting evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v7_1500 at 2024-09-17 07:37:48
+Completed evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v7_1500 at 2024-09-17 08:39:14
+Duration for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v7_1500: 3686 seconds
+Starting evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v8_1500 at 2024-09-17 08:40:14
+Completed evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v8_1500 at 2024-09-17 09:39:44
+Duration for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v8_1500: 3570 seconds
+Starting evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v4 at 2024-09-17 09:40:44
+Completed evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v4 at 2024-09-17 10:49:38
+Duration for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v4: 4134 seconds
+Starting evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v5 at 2024-09-17 10:50:38
+Completed evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v5 at 2024-09-17 12:10:42
+Duration for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v5: 4804 seconds
+Starting evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v6 at 2024-09-17 12:11:42
+Completed evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v6 at 2024-09-17 13:19:57
+Duration for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v6: 4095 seconds
+Starting evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v7 at 2024-09-17 13:20:57
+Completed evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v7 at 2024-09-17 14:31:47
+Duration for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v7: 4250 seconds
+Starting evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v8 at 2024-09-17 14:32:47
+Completed evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v8 at 2024-09-17 15:37:00
+Duration for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v8: 3853 seconds

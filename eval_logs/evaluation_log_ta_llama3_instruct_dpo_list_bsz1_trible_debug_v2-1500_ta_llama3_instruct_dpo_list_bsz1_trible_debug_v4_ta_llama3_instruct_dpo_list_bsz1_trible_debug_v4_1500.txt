@@ -1,0 +1,22 @@
+Starting evaluation for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v2-1500 at 2024-09-18 03:00:24
+Completed evaluation for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v2-1500 at 2024-09-18 04:49:07
+Duration for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v2-1500: 6523 seconds
+Starting evaluation for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v4 at 2024-09-18 04:50:07
+Completed evaluation for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v4 at 2024-09-18 06:31:26
+Duration for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v4: 6079 seconds
+Starting evaluation for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v4_1500 at 2024-09-18 06:32:26
+Completed evaluation for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v4_1500 at 2024-09-18 08:09:39
+Duration for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v4_1500: 5833 seconds
+Starting evaluation for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v5 at 2024-09-18 08:10:39
+Completed evaluation for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v5 at 2024-09-18 09:35:42
+Duration for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v5: 5103 seconds
+Starting evaluation for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v5_1500 at 2024-09-18 09:36:42
+Completed evaluation for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v5_1500 at 2024-09-18 11:00:18
+Duration for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v5_1500: 5016 seconds
+Starting evaluation for model tulu_uf_ta_v2_2048_default_template_dpo_1000 at 2024-09-18 11:01:18
+Completed evaluation for model tulu_uf_ta_v2_2048_default_template_dpo_1000 at 2024-09-18 12:45:16
+Duration for model tulu_uf_ta_v2_2048_default_template_dpo_1000: 6238 seconds
+Starting evaluation for model tulu_uf_ta_v2_2048_default_template_dpo_1500 at 2024-09-18 12:46:16
+Completed evaluation for model tulu_uf_ta_v2_2048_default_template_dpo_1500 at 2024-09-18 15:21:12
+Duration for model tulu_uf_ta_v2_2048_default_template_dpo_1500: 9296 seconds
+Starting evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v9 at 2024-09-18 15:22:12

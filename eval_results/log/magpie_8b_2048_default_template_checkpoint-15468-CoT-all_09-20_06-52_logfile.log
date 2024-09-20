@@ -1,0 +1,112 @@
+2024-09-20 06:52:59,263 INFO sampling_params :SamplingParams(n=1, best_of=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0, top_p=1.0, top_k=-1, min_p=0.0, seed=None, use_beam_search=False, length_penalty=1.0, early_stopping=False, stop=[], stop_token_ids=[128001, 128001], include_stop_str_in_output=False, ignore_eos=False, max_tokens=2048, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, truncate_prompt_tokens=None)
+2024-09-20 06:52:59,265 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2024-09-20 06:52:59,460 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro HTTP/11" 200 2286
+2024-09-20 06:52:59,462 DEBUG Starting new HTTPS connection (1): s3.amazonaws.com:443
+2024-09-20 06:52:59,704 DEBUG https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/TIGER-Lab/MMLU-Pro/TIGER-Lab/MMLU-Pro.py HTTP/11" 404 0
+2024-09-20 06:52:59,842 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro HTTP/11" 200 2286
+2024-09-20 06:52:59,843 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2024-09-20 06:52:59,956 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/510f79e14b00e56dc7d226e6c80279aaca699ad3/README.md HTTP/11" 200 0
+2024-09-20 06:52:59,962 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2024-09-20 06:53:00,073 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/510f79e14b00e56dc7d226e6c80279aaca699ad3/.huggingface.yaml HTTP/11" 404 0
+2024-09-20 06:53:00,074 DEBUG Starting new HTTPS connection (1): datasets-server.huggingface.co:443
+2024-09-20 06:53:00,125 DEBUG Starting new HTTPS connection (1): stats.vllm.ai:443
+2024-09-20 06:53:00,232 DEBUG https://stats.vllm.ai:443 "POST / HTTP/11" 200 None
+2024-09-20 06:53:00,298 DEBUG https://datasets-server.huggingface.co:443 "GET /info?dataset=TIGER-Lab/MMLU-Pro HTTP/11" 200 None
+2024-09-20 06:53:00,439 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/revision/510f79e14b00e56dc7d226e6c80279aaca699ad3 HTTP/11" 200 2286
+2024-09-20 06:53:00,555 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/tree/510f79e14b00e56dc7d226e6c80279aaca699ad3?recursive=False&expand=False HTTP/11" 200 492
+2024-09-20 06:53:00,692 DEBUG https://huggingface.co:443 "POST /api/datasets/TIGER-Lab/MMLU-Pro/paths-info/510f79e14b00e56dc7d226e6c80279aaca699ad3 HTTP/11" 200 218
+2024-09-20 06:53:00,785 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/tree/510f79e14b00e56dc7d226e6c80279aaca699ad3/data?recursive=False&expand=False HTTP/11" 200 475
+2024-09-20 06:53:00,787 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2024-09-20 06:53:00,971 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/revision/510f79e14b00e56dc7d226e6c80279aaca699ad3 HTTP/11" 200 2286
+2024-09-20 06:53:01,069 DEBUG https://huggingface.co:443 "POST /api/datasets/TIGER-Lab/MMLU-Pro/paths-info/510f79e14b00e56dc7d226e6c80279aaca699ad3 HTTP/11" 200 218
+2024-09-20 06:53:01,072 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2024-09-20 06:53:01,185 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/510f79e14b00e56dc7d226e6c80279aaca699ad3/dataset_infos.json HTTP/11" 404 0
+2024-09-20 06:53:01,287 DEBUG https://huggingface.co:443 "POST /api/datasets/TIGER-Lab/MMLU-Pro/paths-info/510f79e14b00e56dc7d226e6c80279aaca699ad3 HTTP/11" 200 218
+2024-09-20 06:53:01,384 DEBUG https://huggingface.co:443 "POST /api/datasets/TIGER-Lab/MMLU-Pro/paths-info/510f79e14b00e56dc7d226e6c80279aaca699ad3 HTTP/11" 200 218
+2024-09-20 06:53:01,386 DEBUG Attempting to acquire lock 139313597903152 on /home/v-lingjiang/.cache/huggingface/datasets/_home_v-lingjiang_.cache_huggingface_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_510f79e14b00e56dc7d226e6c80279aaca699ad3.lock
+2024-09-20 06:53:01,386 DEBUG Lock 139313597903152 acquired on /home/v-lingjiang/.cache/huggingface/datasets/_home_v-lingjiang_.cache_huggingface_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_510f79e14b00e56dc7d226e6c80279aaca699ad3.lock
+2024-09-20 06:53:01,386 DEBUG open file: /home/v-lingjiang/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/510f79e14b00e56dc7d226e6c80279aaca699ad3/dataset_info.json
+2024-09-20 06:53:01,387 DEBUG Attempting to release lock 139313597903152 on /home/v-lingjiang/.cache/huggingface/datasets/_home_v-lingjiang_.cache_huggingface_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_510f79e14b00e56dc7d226e6c80279aaca699ad3.lock
+2024-09-20 06:53:01,387 DEBUG Lock 139313597903152 released on /home/v-lingjiang/.cache/huggingface/datasets/_home_v-lingjiang_.cache_huggingface_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_510f79e14b00e56dc7d226e6c80279aaca699ad3.lock
+2024-09-20 06:53:01,448 DEBUG Attempting to acquire lock 139313597904976 on /home/v-lingjiang/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/510f79e14b00e56dc7d226e6c80279aaca699ad3_builder.lock
+2024-09-20 06:53:01,448 DEBUG Lock 139313597904976 acquired on /home/v-lingjiang/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/510f79e14b00e56dc7d226e6c80279aaca699ad3_builder.lock
+2024-09-20 06:53:01,448 DEBUG open file: /home/v-lingjiang/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/510f79e14b00e56dc7d226e6c80279aaca699ad3/dataset_info.json
+2024-09-20 06:53:01,449 DEBUG Attempting to release lock 139313597904976 on /home/v-lingjiang/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/510f79e14b00e56dc7d226e6c80279aaca699ad3_builder.lock
+2024-09-20 06:53:01,449 DEBUG Lock 139313597904976 released on /home/v-lingjiang/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/510f79e14b00e56dc7d226e6c80279aaca699ad3_builder.lock
+2024-09-20 06:53:02,138 INFO selected subjects:
+business
+law
+psychology
+biology
+chemistry
+history
+other
+health
+economics
+math
+physics
+computer science
+philosophy
+engineering
+2024-09-20 06:53:04,806 INFO evaluating biology
+2024-09-20 06:55:02,970 INFO 717size batch costing time: 116.19347143173218
+2024-09-20 06:55:03,330 INFO this batch accu is: 0.5578800557880056, corr: 400.0, wrong: 317.0
+
+2024-09-20 06:55:03,338 INFO evaluating business
+2024-09-20 06:57:23,722 INFO 789size batch costing time: 138.63162469863892
+2024-09-20 06:57:23,923 INFO this batch accu is: 0.3561470215462611, corr: 281.0, wrong: 508.0
+
+2024-09-20 06:57:23,931 INFO evaluating chemistry
+2024-09-20 07:02:01,199 INFO 1132size batch costing time: 274.0608797073364
+2024-09-20 07:02:02,049 INFO this batch accu is: 0.2067137809187279, corr: 234.0, wrong: 898.0
+
+2024-09-20 07:02:02,063 INFO evaluating computer science
+2024-09-20 07:03:00,280 DEBUG Failed to send usage data to server
+2024-09-20 07:03:39,838 INFO 410size batch costing time: 96.58382725715637
+2024-09-20 07:03:40,051 INFO this batch accu is: 0.32926829268292684, corr: 135.0, wrong: 275.0
+
+2024-09-20 07:03:40,056 INFO evaluating economics
+2024-09-20 07:05:59,666 INFO 844size batch costing time: 137.579119682312
+2024-09-20 07:06:00,032 INFO this batch accu is: 0.43838862559241704, corr: 370.0, wrong: 474.0
+
+2024-09-20 07:06:00,042 INFO evaluating engineering
+2024-09-20 07:09:14,853 INFO 969size batch costing time: 192.60375571250916
+2024-09-20 07:09:15,708 INFO this batch accu is: 0.16718266253869968, corr: 162.0, wrong: 807.0
+
+2024-09-20 07:09:15,720 INFO evaluating health
+2024-09-20 07:12:12,690 INFO 818size batch costing time: 175.10695552825928
+2024-09-20 07:12:13,086 INFO this batch accu is: 0.36797066014669927, corr: 301.0, wrong: 517.0
+
+2024-09-20 07:12:13,096 INFO evaluating history
+2024-09-20 07:13:00,381 DEBUG Starting new HTTPS connection (2): stats.vllm.ai:443
+2024-09-20 07:13:00,490 DEBUG https://stats.vllm.ai:443 "POST / HTTP/11" 200 None
+2024-09-20 07:14:04,738 INFO 381size batch costing time: 108.58186054229736
+2024-09-20 07:14:04,867 INFO this batch accu is: 0.32545931758530183, corr: 124.0, wrong: 257.0
+
+2024-09-20 07:14:04,873 INFO evaluating law
+2024-09-20 07:18:00,144 INFO 1101size batch costing time: 231.98810505867004
+2024-09-20 07:18:01,072 INFO this batch accu is: 0.2134423251589464, corr: 235.0, wrong: 866.0
+
+2024-09-20 07:18:01,089 INFO evaluating math
+2024-09-20 07:23:00,594 DEBUG Failed to send usage data to server
+2024-09-20 07:23:36,083 INFO 1351size batch costing time: 330.90363788604736
+2024-09-20 07:23:37,161 INFO this batch accu is: 0.3323464100666173, corr: 449.0, wrong: 902.0
+
+2024-09-20 07:23:37,175 INFO evaluating other
+2024-09-20 07:25:50,598 INFO 924size batch costing time: 131.6337649822235
+2024-09-20 07:25:50,887 INFO this batch accu is: 0.35714285714285715, corr: 330.0, wrong: 594.0
+
+2024-09-20 07:25:50,896 INFO evaluating philosophy
+2024-09-20 07:27:12,059 INFO 499size batch costing time: 80.15356469154358
+2024-09-20 07:27:12,239 INFO this batch accu is: 0.312625250501002, corr: 156.0, wrong: 343.0
+
+2024-09-20 07:27:12,245 INFO evaluating physics
+2024-09-20 07:31:08,873 INFO 1299size batch costing time: 233.63095259666443
+2024-09-20 07:31:09,665 INFO this batch accu is: 0.23479599692070824, corr: 305.0, wrong: 994.0
+
+2024-09-20 07:31:09,684 INFO evaluating psychology
+2024-09-20 07:33:00,644 DEBUG Starting new HTTPS connection (3): stats.vllm.ai:443
+2024-09-20 07:33:00,764 DEBUG https://stats.vllm.ai:443 "POST / HTTP/11" 200 None
+2024-09-20 07:33:42,842 INFO 798size batch costing time: 151.30405592918396
+2024-09-20 07:33:43,181 INFO this batch accu is: 0.45614035087719296, corr: 364.0, wrong: 434.0
+

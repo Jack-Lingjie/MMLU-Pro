@@ -1,0 +1,3 @@
+Starting evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug at 2024-09-14 15:37:45
+Completed evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug at 2024-09-14 16:46:50
+Duration for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug: 4145 seconds

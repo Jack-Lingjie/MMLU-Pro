@@ -1,0 +1,9 @@
+Starting evaluation for model tulu_v2_8b_2048_default_template_dpo at 2024-09-17 16:37:20
+Completed evaluation for model tulu_v2_8b_2048_default_template_dpo at 2024-09-17 16:37:30
+Duration for model tulu_v2_8b_2048_default_template_dpo: 10 seconds
+Starting evaluation for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v1 at 2024-09-17 16:38:30
+Completed evaluation for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v1 at 2024-09-17 16:38:41
+Duration for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v1: 11 seconds
+Starting evaluation for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v1-1500 at 2024-09-17 16:39:41
+Completed evaluation for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v1-1500 at 2024-09-17 16:39:52
+Duration for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v1-1500: 11 seconds
