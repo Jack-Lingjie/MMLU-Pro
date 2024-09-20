@@ -198,8 +198,6 @@ def eval_cot(subject, model, tokenizer, val_df, test_df, output_path):
         add_special_tokens=False,
     ) 
     inference_batches = encoded_inputs['input_ids']  
-    print(f"len(inference_batches): {len(inference_batches)}")
-    print(f"inference_batches: {inference_batches}")
     pred_batch, response_batch = batch_inference(llm, sampling_params, inference_batches)
     res = []
     for j, curr in enumerate(test_df):

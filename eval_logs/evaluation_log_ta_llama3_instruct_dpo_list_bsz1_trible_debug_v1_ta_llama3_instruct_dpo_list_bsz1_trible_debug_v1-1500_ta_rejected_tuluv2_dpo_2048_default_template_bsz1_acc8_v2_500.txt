@@ -1,1 +1,2 @@
-Starting evaluation for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v1 at 2024-09-20 18:33:59
+Starting evaluation for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v1 at 2024-09-20 19:08:46
+Starting evaluation for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v1-1500 at 2024-09-20 19:09:40
