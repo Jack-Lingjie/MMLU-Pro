@@ -1,2 +1,0 @@
-2024-09-10 07:28:16,982 DEBUG Starting new HTTPS connection (1): huggingface.co:443
-2024-09-10 07:28:17,139 DEBUG https://huggingface.co:443 "HEAD /glan_v2_glanchat_v2_8b_2048_default_template/resolve/main/tokenizer_config.json HTTP/11" 401 0

@@ -155,7 +155,7 @@ do
     echo "Starting evaluation for model $model at $start_time" >> "$log_file"  
 
     # 调用单次调用脚本并传入模型名称  
-    bash scripts/examples/eval_tulu.sh "$model" 
+    bash scripts/examples/eval_tulu_bak.sh "$model" 
 
     # 获取结束时间并记录到日志文件中  
     end_time=$(date '+%Y-%m-%d %H:%M:%S')  

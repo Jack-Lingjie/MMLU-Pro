@@ -1,0 +1,70 @@
+2024-09-20 18:34:54,033 INFO sampling_params :SamplingParams(n=1, best_of=1, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0, top_p=1.0, top_k=-1, min_p=0.0, seed=None, use_beam_search=False, length_penalty=1.0, early_stopping=False, stop=[], stop_token_ids=[128009, 128001], include_stop_str_in_output=False, ignore_eos=False, max_tokens=2048, min_tokens=0, logprobs=None, prompt_logprobs=None, skip_special_tokens=True, spaces_between_special_tokens=True, truncate_prompt_tokens=None)
+2024-09-20 18:34:54,035 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2024-09-20 18:34:54,281 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro HTTP/11" 200 2286
+2024-09-20 18:34:54,416 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro HTTP/11" 200 2286
+2024-09-20 18:34:54,566 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/revision/510f79e14b00e56dc7d226e6c80279aaca699ad3 HTTP/11" 200 2286
+2024-09-20 18:34:54,654 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/510f79e14b00e56dc7d226e6c80279aaca699ad3/README.md HTTP/11" 200 0
+2024-09-20 18:34:54,655 DEBUG Attempting to acquire lock 130169830487280 on /home/v-lingjiang/.cache/huggingface/hub/.locks/datasets--TIGER-Lab--MMLU-Pro/47a0855135cb699979a8054bc8709dc50b9acae1.lock
+2024-09-20 18:34:54,655 DEBUG Lock 130169830487280 acquired on /home/v-lingjiang/.cache/huggingface/hub/.locks/datasets--TIGER-Lab--MMLU-Pro/47a0855135cb699979a8054bc8709dc50b9acae1.lock
+2024-09-20 18:34:54,748 DEBUG https://huggingface.co:443 "GET /datasets/TIGER-Lab/MMLU-Pro/resolve/510f79e14b00e56dc7d226e6c80279aaca699ad3/README.md HTTP/11" 200 10685
+2024-09-20 18:34:54,750 DEBUG Attempting to release lock 130169830487280 on /home/v-lingjiang/.cache/huggingface/hub/.locks/datasets--TIGER-Lab--MMLU-Pro/47a0855135cb699979a8054bc8709dc50b9acae1.lock
+2024-09-20 18:34:54,750 DEBUG Lock 130169830487280 released on /home/v-lingjiang/.cache/huggingface/hub/.locks/datasets--TIGER-Lab--MMLU-Pro/47a0855135cb699979a8054bc8709dc50b9acae1.lock
+2024-09-20 18:34:54,845 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/510f79e14b00e56dc7d226e6c80279aaca699ad3/.huggingface.yaml HTTP/11" 404 0
+2024-09-20 18:34:54,847 DEBUG Starting new HTTPS connection (1): datasets-server.huggingface.co:443
+2024-09-20 18:34:54,899 DEBUG Starting new HTTPS connection (1): stats.vllm.ai:443
+2024-09-20 18:34:55,030 DEBUG https://stats.vllm.ai:443 "POST / HTTP/11" 200 None
+2024-09-20 18:34:55,057 DEBUG https://datasets-server.huggingface.co:443 "GET /info?dataset=TIGER-Lab/MMLU-Pro HTTP/11" 200 None
+2024-09-20 18:34:55,185 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/revision/510f79e14b00e56dc7d226e6c80279aaca699ad3 HTTP/11" 200 2286
+2024-09-20 18:34:55,279 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/tree/510f79e14b00e56dc7d226e6c80279aaca699ad3?recursive=False&expand=False HTTP/11" 200 492
+2024-09-20 18:34:55,374 DEBUG https://huggingface.co:443 "POST /api/datasets/TIGER-Lab/MMLU-Pro/paths-info/510f79e14b00e56dc7d226e6c80279aaca699ad3 HTTP/11" 200 218
+2024-09-20 18:34:55,515 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/tree/510f79e14b00e56dc7d226e6c80279aaca699ad3/data?recursive=False&expand=False HTTP/11" 200 475
+2024-09-20 18:34:55,518 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2024-09-20 18:34:55,672 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/revision/510f79e14b00e56dc7d226e6c80279aaca699ad3 HTTP/11" 200 2286
+2024-09-20 18:34:55,762 DEBUG https://huggingface.co:443 "POST /api/datasets/TIGER-Lab/MMLU-Pro/paths-info/510f79e14b00e56dc7d226e6c80279aaca699ad3 HTTP/11" 200 218
+2024-09-20 18:34:55,853 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/510f79e14b00e56dc7d226e6c80279aaca699ad3/dataset_infos.json HTTP/11" 404 0
+2024-09-20 18:34:55,947 DEBUG https://huggingface.co:443 "POST /api/datasets/TIGER-Lab/MMLU-Pro/paths-info/510f79e14b00e56dc7d226e6c80279aaca699ad3 HTTP/11" 200 218
+2024-09-20 18:34:56,043 DEBUG https://huggingface.co:443 "POST /api/datasets/TIGER-Lab/MMLU-Pro/paths-info/510f79e14b00e56dc7d226e6c80279aaca699ad3 HTTP/11" 200 218
+2024-09-20 18:34:56,045 DEBUG Attempting to acquire lock 130169830488480 on /home/v-lingjiang/.cache/huggingface/datasets/_home_v-lingjiang_.cache_huggingface_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_510f79e14b00e56dc7d226e6c80279aaca699ad3.lock
+2024-09-20 18:34:56,045 DEBUG Lock 130169830488480 acquired on /home/v-lingjiang/.cache/huggingface/datasets/_home_v-lingjiang_.cache_huggingface_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_510f79e14b00e56dc7d226e6c80279aaca699ad3.lock
+2024-09-20 18:34:56,045 DEBUG Attempting to release lock 130169830488480 on /home/v-lingjiang/.cache/huggingface/datasets/_home_v-lingjiang_.cache_huggingface_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_510f79e14b00e56dc7d226e6c80279aaca699ad3.lock
+2024-09-20 18:34:56,045 DEBUG Lock 130169830488480 released on /home/v-lingjiang/.cache/huggingface/datasets/_home_v-lingjiang_.cache_huggingface_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_510f79e14b00e56dc7d226e6c80279aaca699ad3.lock
+2024-09-20 18:34:56,103 DEBUG Attempting to acquire lock 130169830788688 on /home/v-lingjiang/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/510f79e14b00e56dc7d226e6c80279aaca699ad3_builder.lock
+2024-09-20 18:34:56,103 DEBUG Lock 130169830788688 acquired on /home/v-lingjiang/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/510f79e14b00e56dc7d226e6c80279aaca699ad3_builder.lock
+2024-09-20 18:34:56,210 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/510f79e14b00e56dc7d226e6c80279aaca699ad3/data/test-00000-of-00001.parquet HTTP/11" 302 0
+2024-09-20 18:34:56,211 DEBUG Attempting to acquire lock 130169828124960 on /home/v-lingjiang/.cache/huggingface/hub/.locks/datasets--TIGER-Lab--MMLU-Pro/7be1cb1dc496f27b02b344523dc2abf8b2eedf6f38f69be7273db6c3db2dcf33.lock
+2024-09-20 18:34:56,211 DEBUG Lock 130169828124960 acquired on /home/v-lingjiang/.cache/huggingface/hub/.locks/datasets--TIGER-Lab--MMLU-Pro/7be1cb1dc496f27b02b344523dc2abf8b2eedf6f38f69be7273db6c3db2dcf33.lock
+2024-09-20 18:34:56,213 DEBUG Starting new HTTPS connection (1): cdn-lfs-us-1.huggingface.co:443
+2024-09-20 18:34:56,444 DEBUG https://cdn-lfs-us-1.huggingface.co:443 "GET /repos/66/ef/66ef124c82fcfc583862e229d08f3ec7e91b6cb19d4ea4e680540110a55df42a/7be1cb1dc496f27b02b344523dc2abf8b2eedf6f38f69be7273db6c3db2dcf33?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27test-00000-of-00001.parquet%3B+filename%3D%22test-00000-of-00001.parquet%22%3B&Expires=1727116496&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcyNzExNjQ5Nn19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmh1Z2dpbmdmYWNlLmNvL3JlcG9zLzY2L2VmLzY2ZWYxMjRjODJmY2ZjNTgzODYyZTIyOWQwOGYzZWM3ZTkxYjZjYjE5ZDRlYTRlNjgwNTQwMTEwYTU1ZGY0MmEvN2JlMWNiMWRjNDk2ZjI3YjAyYjM0NDUyM2RjMmFiZjhiMmVlZGY2ZjM4ZjY5YmU3MjczZGI2YzNkYjJkY2YzMz9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=dt-Qm5uLQYC267kBYKBH6~i6~LVh6KyAGGNn8a85OPo2DMcNsip-~uLkcckVC1dlCXLpd4~DZsGEPD6jdm6lR5MzuCO5KEEs4sGXyvGUXDlH2taV-S~BN7x9LD0qffAXg~UOLpF3v0~mkukN8yxkiZ1oTB0xKqJwHTW3v6WCnQM6u44TtDjp2P0bplIZnzhzlqZlfuiMAQc2pS5KUzUkgqEhFGInF6mMloUfITCwslLyL-t52p-DD5P~Ccm--YFYrh5rEYskH-BErsHP6~vQ114ZB53cvyyYhfX6r3kkZdcU3e9VZIctqSKJD-bz6Rpwzp3wryfrTQDLRvsNp6IyyQ__&Key-Pair-Id=K24J24Z295AEI9 HTTP/11" 200 4149543
+2024-09-20 18:34:56,602 DEBUG Attempting to release lock 130169828124960 on /home/v-lingjiang/.cache/huggingface/hub/.locks/datasets--TIGER-Lab--MMLU-Pro/7be1cb1dc496f27b02b344523dc2abf8b2eedf6f38f69be7273db6c3db2dcf33.lock
+2024-09-20 18:34:56,602 DEBUG Lock 130169828124960 released on /home/v-lingjiang/.cache/huggingface/hub/.locks/datasets--TIGER-Lab--MMLU-Pro/7be1cb1dc496f27b02b344523dc2abf8b2eedf6f38f69be7273db6c3db2dcf33.lock
+2024-09-20 18:34:56,708 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/510f79e14b00e56dc7d226e6c80279aaca699ad3/data/validation-00000-of-00001.parquet HTTP/11" 302 0
+2024-09-20 18:34:56,709 DEBUG Attempting to acquire lock 130169828125200 on /home/v-lingjiang/.cache/huggingface/hub/.locks/datasets--TIGER-Lab--MMLU-Pro/a6db33e44c7a8d6a0a9665aabe6596a5e7436bebb62412d1219821283835e457.lock
+2024-09-20 18:34:56,709 DEBUG Lock 130169828125200 acquired on /home/v-lingjiang/.cache/huggingface/hub/.locks/datasets--TIGER-Lab--MMLU-Pro/a6db33e44c7a8d6a0a9665aabe6596a5e7436bebb62412d1219821283835e457.lock
+2024-09-20 18:34:56,841 DEBUG https://cdn-lfs-us-1.huggingface.co:443 "GET /repos/66/ef/66ef124c82fcfc583862e229d08f3ec7e91b6cb19d4ea4e680540110a55df42a/a6db33e44c7a8d6a0a9665aabe6596a5e7436bebb62412d1219821283835e457?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27validation-00000-of-00001.parquet%3B+filename%3D%22validation-00000-of-00001.parquet%22%3B&Expires=1727116496&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcyNzExNjQ5Nn19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmh1Z2dpbmdmYWNlLmNvL3JlcG9zLzY2L2VmLzY2ZWYxMjRjODJmY2ZjNTgzODYyZTIyOWQwOGYzZWM3ZTkxYjZjYjE5ZDRlYTRlNjgwNTQwMTEwYTU1ZGY0MmEvYTZkYjMzZTQ0YzdhOGQ2YTBhOTY2NWFhYmU2NTk2YTVlNzQzNmJlYmI2MjQxMmQxMjE5ODIxMjgzODM1ZTQ1Nz9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=ewZXMNQlc7CkayivmJoBARUia7PLbg0YXUO3p~w2PccT882oPhJg9pYkYkW3bnrazy8ReyPs8sK1~-3n2O45Gw5aVxMmu0rbNdzUA9tNhRUQgIdVWooCi8JWVX5KgrjUZVj2sH8sYsFxJDTOYNzS-sUX3OQ1cACGIvjS4gpqZWWC5P49ATMYnc6kVkij-HClZEm9i7hmapeWh9vazWRSi6OGgkY4k7Ze-DwwuucVihXOsACJdnssK8xEn7USHV~XDtX-NWBCT5K3mqilDx2Q7tEKT-XbUM6amA90E8xRf75wirTk5FCnK8X2EvtoDTdthKSZmYEcNUbUHDRJ2WvrwA__&Key-Pair-Id=K24J24Z295AEI9 HTTP/11" 200 45312
+2024-09-20 18:34:56,842 DEBUG Attempting to release lock 130169828125200 on /home/v-lingjiang/.cache/huggingface/hub/.locks/datasets--TIGER-Lab--MMLU-Pro/a6db33e44c7a8d6a0a9665aabe6596a5e7436bebb62412d1219821283835e457.lock
+2024-09-20 18:34:56,842 DEBUG Lock 130169828125200 released on /home/v-lingjiang/.cache/huggingface/hub/.locks/datasets--TIGER-Lab--MMLU-Pro/a6db33e44c7a8d6a0a9665aabe6596a5e7436bebb62412d1219821283835e457.lock
+2024-09-20 18:34:56,844 DEBUG open file: /home/v-lingjiang/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/510f79e14b00e56dc7d226e6c80279aaca699ad3.incomplete/mmlu-pro-test-00000-00000-of-NNNNN.arrow
+2024-09-20 18:34:56,875 DEBUG open file: /home/v-lingjiang/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/510f79e14b00e56dc7d226e6c80279aaca699ad3.incomplete/mmlu-pro-validation-00000-00000-of-NNNNN.arrow
+2024-09-20 18:34:56,877 DEBUG Attempting to acquire lock 130169830786144 on /home/v-lingjiang/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/510f79e14b00e56dc7d226e6c80279aaca699ad3.incomplete_info.lock
+2024-09-20 18:34:56,877 DEBUG Lock 130169830786144 acquired on /home/v-lingjiang/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/510f79e14b00e56dc7d226e6c80279aaca699ad3.incomplete_info.lock
+2024-09-20 18:34:56,877 DEBUG open file: /home/v-lingjiang/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/510f79e14b00e56dc7d226e6c80279aaca699ad3.incomplete/dataset_info.json
+2024-09-20 18:34:56,878 DEBUG Attempting to release lock 130169830786144 on /home/v-lingjiang/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/510f79e14b00e56dc7d226e6c80279aaca699ad3.incomplete_info.lock
+2024-09-20 18:34:56,878 DEBUG Lock 130169830786144 released on /home/v-lingjiang/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/510f79e14b00e56dc7d226e6c80279aaca699ad3.incomplete_info.lock
+2024-09-20 18:34:56,878 DEBUG Attempting to release lock 130169830788688 on /home/v-lingjiang/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/510f79e14b00e56dc7d226e6c80279aaca699ad3_builder.lock
+2024-09-20 18:34:56,878 DEBUG Lock 130169830788688 released on /home/v-lingjiang/.cache/huggingface/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/510f79e14b00e56dc7d226e6c80279aaca699ad3_builder.lock
+2024-09-20 18:34:57,522 INFO selected subjects:
+business
+law
+psychology
+biology
+chemistry
+history
+other
+health
+economics
+math
+physics
+computer science
+philosophy
+engineering
+2024-09-20 18:34:57,523 INFO evaluating biology
