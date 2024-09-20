@@ -129,7 +129,7 @@ def extract_final(text):
 
 def batch_inference(llm, sampling_params, inference_batch):
     start = time.time()
-    outputs = llm.generate(inference_batch, sampling_params)
+    outputs = llm.generate(prompt_token_ids=inference_batch, sampling_params=sampling_params)
     logging.info(str(len(inference_batch)) + "size batch costing time: " + str(time.time() - start))
     response_batch = []
     pred_batch = []
@@ -193,6 +193,12 @@ def eval_cot(subject, model, tokenizer, val_df, test_df, output_path):
         prompt = tokenizer.apply_chat_template(prompt, tokenize=False, add_generation_prompt=True)
         inference_batches.append(prompt)
     # logging.info(f"inference_batches: \n\n{inference_batches}")
+    encoded_inputs = tokenizer.batch_encode_plus(  
+        inference_batches,  
+        add_special_tokens=False,
+    ) 
+    inference_batches = encoded_inputs['input_ids']  
+    print(f"len(inference_batches): {len(inference_batches)}")
     pred_batch, response_batch = batch_inference(llm, sampling_params, inference_batches)
     res = []
     for j, curr in enumerate(test_df):
