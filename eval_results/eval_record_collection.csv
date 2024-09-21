@@ -24,3 +24,4 @@ ta_chosen_llama3.1_instruct_dpo_2048,CoT,all,08-29_06-30,0.13239694147835795
 ta_rejected_llama3.1_instruct_dpo_2048,CoT,all,08-29_08-33,0.14735704786009332
 uf_llama3.1_instruct_dpo_2048_job,CoT,all,08-30_08-46,0.3583776595446827
 ta_chosen_tuluv2_merge_dpo_2048_default_template,CoT,all,08-30_10-18,0.26013962763795384
+Meta-Llama-3.1-8B-Instruct,CoT,all,09-21_06-23,0.45661569145141157
