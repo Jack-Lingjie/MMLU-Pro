@@ -1,0 +1,10 @@
+ta_llama3_instruct_dpo_list_bsz1_trible_debug_v1,CoT,all,09-20_12-16,0.13779920211620683
+ta_llama3_instruct_dpo_list_bsz1_trible_debug_v1-1500,CoT,all,09-20_13-07,0.14137300530739919
+ta_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v2_500,CoT,all,09-20_13-57,0.2861535904017492
+ta_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v2_1000,CoT,all,09-20_14-38,0.3165724733779444
+ta_rejected_llama3.1_instruct_2048_default_template_v2-500,CoT,all,09-20_15-21,0.17395279253873397
+ta_rejected_llama3.1_instruct_2048_default_template_v2-1000,CoT,all,09-20_16-10,0.17220744679419817
+tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v2,CoT,all,09-20_17-01,0.20495345742977447
+tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v3,CoT,all,09-20_18-02,0.2559009308297955
+tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_1000,CoT,all,09-20_18-51,0.20187832445130666
+tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_1500,CoT,all,09-20_19-52,0.2816655584872286

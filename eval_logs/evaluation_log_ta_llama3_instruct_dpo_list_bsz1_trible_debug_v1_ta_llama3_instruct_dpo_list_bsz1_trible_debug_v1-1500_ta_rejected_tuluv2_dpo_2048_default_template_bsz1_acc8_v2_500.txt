@@ -1,2 +1,31 @@
-Starting evaluation for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v1 at 2024-09-20 19:08:46
-Starting evaluation for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v1-1500 at 2024-09-20 19:09:40
+Starting evaluation for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v1 at 2024-09-20 12:16:31
+Completed evaluation for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v1 at 2024-09-20 13:06:42
+Duration for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v1: 3011 seconds
+Starting evaluation for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v1-1500 at 2024-09-20 13:07:42
+Completed evaluation for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v1-1500 at 2024-09-20 13:56:53
+Duration for model ta_llama3_instruct_dpo_list_bsz1_trible_debug_v1-1500: 2951 seconds
+Starting evaluation for model ta_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v2_500 at 2024-09-20 13:57:53
+Completed evaluation for model ta_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v2_500 at 2024-09-20 14:37:33
+Duration for model ta_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v2_500: 2380 seconds
+Starting evaluation for model ta_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v2_1000 at 2024-09-20 14:38:33
+Completed evaluation for model ta_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v2_1000 at 2024-09-20 15:20:29
+Duration for model ta_rejected_tuluv2_dpo_2048_default_template_bsz1_acc8_v2_1000: 2516 seconds
+Starting evaluation for model ta_rejected_llama3.1_instruct_2048_default_template_v2-500 at 2024-09-20 15:21:29
+Completed evaluation for model ta_rejected_llama3.1_instruct_2048_default_template_v2-500 at 2024-09-20 16:09:01
+Duration for model ta_rejected_llama3.1_instruct_2048_default_template_v2-500: 2852 seconds
+Starting evaluation for model ta_rejected_llama3.1_instruct_2048_default_template_v2-1000 at 2024-09-20 16:10:01
+Completed evaluation for model ta_rejected_llama3.1_instruct_2048_default_template_v2-1000 at 2024-09-20 17:00:46
+Duration for model ta_rejected_llama3.1_instruct_2048_default_template_v2-1000: 3045 seconds
+Starting evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v2 at 2024-09-20 17:01:46
+Completed evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v2 at 2024-09-20 18:01:16
+Duration for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v2: 3570 seconds
+Starting evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v3 at 2024-09-20 18:02:16
+Completed evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v3 at 2024-09-20 18:50:45
+Duration for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v3: 2909 seconds
+Starting evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_1000 at 2024-09-20 18:51:45
+Completed evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_1000 at 2024-09-20 19:51:08
+Duration for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_1000: 3563 seconds
+Starting evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_1500 at 2024-09-20 19:52:08
+Completed evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_1500 at 2024-09-20 20:41:07
+Duration for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_1500: 2939 seconds
+Starting evaluation for model tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_500 at 2024-09-20 20:42:07
