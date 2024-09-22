@@ -1,6 +1,5 @@
 #!/bin/bash  
 set -x
-conda activate eval
 # 模型名称列表  
 # models=(
 #     "tulu_lora_sft_base_template_8b" 
@@ -60,7 +59,7 @@ models=(
     # "tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v15_1500"
 
 
-    "tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v2_1500"
+    # "tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v2_1500"
     "tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v14"
     "tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v11"
     "tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v11_1500"
