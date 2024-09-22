@@ -5,8 +5,8 @@ export CUDA_VISIBLE_DEVICES=2
 
 model_name=${1:-Meta-Llama-3.1-8B-Instruct}
 
-save_dir="/mnt/lingjiejiang/textual_aesthetics/logs/mmlu_m1/eval_results_1/"
-global_record_file="/mnt/lingjiejiang/textual_aesthetics/logs/mmlu_m1/eval_results_1/eval_record_collection.csv"
+save_dir="/mnt/lingjiejiang/textual_aesthetics/logs/mmlu_m2/eval_results_1/"
+global_record_file="/mnt/lingjiejiang/textual_aesthetics/logs/mmlu_m2/eval_results_1/eval_record_collection.csv"
 model="/mnt/lingjiejiang/textual_aesthetics/model_checkpoint/sft_merge_checkpoints/$model_name"
 selected_subjects="all"
 gpu_util=0.8
