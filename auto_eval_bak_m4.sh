@@ -51,12 +51,12 @@ models=(
     # "tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v3"
     # "tulu_v2_8b_2048_default_template_dpo"
     ## done
-    "tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v8_1500"
-    "tulu_2048_default_template_trible_uf_dpo"
-    "tulu_2048_default_template_trible_rejected_ta_dpo"
-    "tulu_2048_default_template_trible_chosen_ta_dpo_1500"
-    "tulu_2048_default_template_trible_chosen_ta_dpo"
-    "tulu_2048_default_template_trible_rejected_ta_dpo_1500"
+    # "tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v8_1500"
+    # "tulu_2048_default_template_trible_uf_dpo"
+    # "tulu_2048_default_template_trible_rejected_ta_dpo"
+    # "tulu_2048_default_template_trible_chosen_ta_dpo_1500"
+    # "tulu_2048_default_template_trible_chosen_ta_dpo"
+    # "tulu_2048_default_template_trible_rejected_ta_dpo_1500"
     "ta_chosen_llama3.1_instruct_dpo_2048_v2"
     "tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v15"
     "tulu_v2_8b_default_template_dpo_list_bsz1_trible_debug_v15_1500"
@@ -157,7 +157,7 @@ do
     echo "Starting evaluation for model $model at $start_time" >> "$log_file"  
 
     # 调用单次调用脚本并传入模型名称  
-    bash scripts/examples/eval_tulu_bak.sh "$model" 
+    bash scripts/examples/eval_tulu_bak_m1_4.sh "$model" 
 
     # 获取结束时间并记录到日志文件中  
     end_time=$(date '+%Y-%m-%d %H:%M:%S')  
