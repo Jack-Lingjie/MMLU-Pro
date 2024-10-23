@@ -8,9 +8,10 @@ set -x
 # 参数列表，每个元素包含 model_name, hyperparameter, 和 checkpoint，用逗号分隔  
 PARAMS=(  
   # "glanchat_v2.1_8b_2048_default_template,fullft_lr5e6_e3,checkpoint-9918"
-  "magpie_8b_2048_default_template/fullft_lr5e6_e3/sft/checkpoint-8500"  
-  "glanchat_v2.1_8b_2048_default_template_8500_dpo/fullft/dpo/checkpoint-2756"
-  "magpie_8b_2048_default_template/fullft_lr5e6_e3/sft/checkpoint-15468"
+    "magpie_8b_2048_default_template,fullft_lr2e5_e2,sft,checkpoint-536"
+  # "magpie_8b_2048_default_template/fullft_lr5e6_e3/sft/checkpoint-8500"  
+  # "glanchat_v2.1_8b_2048_default_template_8500_dpo/fullft/dpo/checkpoint-2756"
+  # "magpie_8b_2048_default_template/fullft_lr5e6_e3/sft/checkpoint-15468"
   # "glanchat_v2.1_8b_2048_default_template,fullft_lr5e6_e3,checkpoint-8500"  
   # "glan_v2_glanchat_v2_8b_2048_default_template,fullft_lr5e6_e3_fx,checkpoint-33000"   
 )  
